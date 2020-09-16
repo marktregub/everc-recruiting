@@ -16,6 +16,7 @@ public class PipelinePOCMain {
             dataManager.enrichData();
             TransmitStats stats = dataManager.transmitData();
             System.out.println("Pipeline for product transmit finished: " + stats);
+            System.exit(0);
         } catch(IOException e) {
             e.printStackTrace();
         }

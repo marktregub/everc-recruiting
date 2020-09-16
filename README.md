@@ -1,5 +1,12 @@
 # EverCompliant pipeline test
 
+### Implementation notes
+
+ - The code implementation is with Java 8, build tool is maven
+ - In order to run the code you need mockserver is up and running on localhost:1080
+ - Main class is PipelinePOCMain to try the code on the existing in the project input
+ - See pipeline execution tests
+
 
 ### Product compliance pipeline example
 
